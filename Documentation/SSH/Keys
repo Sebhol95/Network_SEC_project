@@ -4,6 +4,8 @@ Establish connection:
 ###########################################
 conf t 
 !
+ip ssh version 1
+!
 crypto key generate rsa
 !
 ip domain-name dns-company.no
