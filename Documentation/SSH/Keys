@@ -1,1 +1,40 @@
-tes
+Configuring SSH keys on all Devices. 
+
+Establish connection: 
+###########################################
+conf t 
+!
+crypto key generate rsa
+!
+ip domain-name dns-company.no
+!
+ip ssh time-out 60
+!
+ip ssh authentication-retries 3
+!
+line vty 0 4
+!
+transport input ssh
+!
+
+
+Users on router: 
+###########################################
+username Admin1 secret Z=4xBKk:&ET
+username Admin2 secret =2vyS`Vh+&~
+username Admin3 secret )Y"p84/h`y5
+
+
+Testing connection: 
+###########################################
+C:\>ssh -l Admin1 172.17.17.1
+Password: 
+OSL-FW>en
+Password: 
+OSL-FW#
+
+C:\>ssh -l Admin1 85.100.200.97
+Password: 
+Internet>en
+Password: 
+Internet#
