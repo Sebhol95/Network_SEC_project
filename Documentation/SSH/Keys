@@ -22,9 +22,9 @@ transport input ssh
 
 Users on router: 
 ###########################################
-username Admin1 secret Z=4xBKk:&ET
-username Admin2 secret =2vyS`Vh+&~
-username Admin3 secret )Y"p84/h`y5
+username Admin1 privilege 15 secret 5 $1$mERr$po3DTILCYylg4873KNKvO1
+username Admin2 privilege 15 secret 5 $1$mERr$nGM5NPOJEOZMKCpmOahz11
+username Admin3 privilege 15 secret 5 $1$mERr$NxvmZovPrPFlBZ8vCO6/N.
 
 
 Testing connection: 
