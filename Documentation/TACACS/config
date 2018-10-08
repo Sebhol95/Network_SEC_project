@@ -46,6 +46,21 @@ Tacacs
 Key:
 cisco123
 
+###################################################
+Connection to L3SW02:
+
+Client name: 
+L3SW02
+
+Client IP:
+192.168.255.1
+
+Server Type: 
+Tacacs
+
+Key:
+cisco123
+
 
 SRV-SW01 - config to tacacs server: 
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
