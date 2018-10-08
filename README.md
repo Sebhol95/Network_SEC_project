@@ -14,7 +14,7 @@ three	users	and	supply	passwords	for	testing),	and	only	from	IT-network.
 - [X] Traffic	to	devices	should	be	encrypted. (Missing Bergen, ans SW.)
 - [ ] “Login	Password	Retry	Lockout”	should	only	allow	three	failed	logins,	before	
 a	retention	period	of	20	min,	with	feedback	to	the	user.
-- [ ] Legal	Banner	Notification,	stating	the	company	policy	should	be	in	place.	The	
+- [X] Legal	Banner	Notification,	stating	the	company	policy	should	be	in	place.	The	
 banner	should	state	that	unauthorised	login	is	prohibited,	logged	and	
 prosecuted.	You	can	express	the	banner	text	at	your	wish.
 - [ ] Ensure	that	no	one	can	use	the	WIFI	to	get	access	to	local	resources.	
