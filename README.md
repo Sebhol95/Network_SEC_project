@@ -39,6 +39,15 @@ function.
 ## Information 
 
 Username: Admin1
+Pass: Z=4xBKk:&ET
+
+Username: Admin2
+Pass: =2vyS`Vh+&~
+
+Username: Admin3
+Pass: )Y"p84/h`y5
+
+Username: Admin1
 Password: Z=4xBKk:&ET
 
 Username: Admin2
