@@ -34,3 +34,17 @@ function.
 [TACACS](https://github.com/Sebhol95/Network_SEC_project/tree/master/Documentation/TACACS) setup and configurations
 
 [ACL](https://github.com/Sebhol95/Network_SEC_project/tree/master/Documentation/ACL) setup and configurations
+
+
+## Information 
+
+Username: Admin1
+Password: Z=4xBKk:&ET
+
+Username: Admin2
+Password: =2vyS`Vh+&~
+
+Username: Admin3
+Password: )Y"p84/h`y5
+
+Enable password: test
