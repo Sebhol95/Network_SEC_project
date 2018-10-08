@@ -17,7 +17,6 @@ Key:
 cisco123
 
 ###################################################
-
 Connection to Internet: 
 
 Client name:
@@ -32,6 +31,20 @@ Tacacs
 Key:
 cisco123
 
+###################################################
+Connection to BRG-FW:
+
+Client name: 
+BRG-FW
+
+Client IP:
+195.60.32.38
+
+Server Type: 
+Tacacs
+
+Key:
+cisco123
 
 
 SRV-SW01 - config to tacacs server: 
@@ -74,4 +87,3 @@ Username: Admin3
 Password: )Y"p84/h`y5
 
 Enable password: test
-
