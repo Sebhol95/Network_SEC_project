@@ -1,7 +1,9 @@
-TACACS configuration: 
+TACACS configuration on all nodes i netwrok: 
 
 TACACS Server info: 
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+Connection to SRV-SW01
+
 Client name: 
 OSL-FW
 
@@ -13,6 +15,12 @@ Tacacs
 
 Key:
 cisco123
+
+
+Connection to SRV-SW01
+
+Client name:
+
 
 
 SRV-SW01 - config to tacacs server: 
@@ -35,11 +43,24 @@ exi
 !
 exi
 !
-enable secret *password*
+enable secret test
 
 
 Check connection to TACACS srv: 
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 ping 192.168.255.3
 
+
+IT admin users: 
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+Username: Admin1
+Password: Z=4xBKk:&ET
+
+Username: Admin2
+Password: =2vyS`Vh+&~
+
+Username: Admin3
+Password: )Y"p84/h`y5
+
+Enable password: )Y"p84/h`y5
 
