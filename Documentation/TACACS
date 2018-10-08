@@ -14,6 +14,8 @@ username administrator password administrator
 !
 
 
+
+
 ## Connection with computers in network:
 
 conf t
@@ -24,14 +26,22 @@ login authentication My_REM_AUTH
 !
 
 
+
+
 ## Check connection to TACACS srv: 
 
 ping 192.168.255.3
 
 
+
+
+
 ## Enable password on router (local): 
 
 enable secret *password*
+
+
+
 
 
 
