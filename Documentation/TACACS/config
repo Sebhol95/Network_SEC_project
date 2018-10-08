@@ -72,7 +72,11 @@ tacacs-server host 192.168.255.3 key cisco123
 !
 aaa authentication login My_REM_AUTH group tacacs+
 !
-username administrator password administrator
+username Admin1 privilege 15 secret Z=4xBKk:&ET
+!
+username Admin2 privilege 15 secret =2vyS`Vh+&~
+!
+username Admin3 privilege 15 secret )Y"p84/h`y5
 !
 line vty 0 4
 !
