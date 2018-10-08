@@ -1,0 +1,21 @@
+test
+
+Wished commando (Not working in packet tracer): 
+aaa local authentication attempts max-fail
+
+
+possible workaround: 
+ip ssh authentication-retries 5
+
+---> Run the SSH connection 7 times where it default lockout the user: 
+
+OSL-FW#show aaa local user lockout
+Local-user				Lock time
+Admin1				06:25:15 UTC Mon Mar 01 1993
+
+
+Remove lockout: 
+
+clear aaa local user fail-attempts {username username | all}
+
+
