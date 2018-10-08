@@ -8,7 +8,7 @@ clients	in	the	network.
 
 
 - [ ] Document the	network	settings
-- [ ] Implement	centralised	login	security	on	all	network	devices	(Cisco).	
+- [X] Implement	centralised	login	security	on	all	network	devices	(Cisco).	(Missing Bergen)
 - [ ] Ensure	that	only	members	of	the	IT	department	are	allowed	to	log	in	(add	
 three	users	and	supply	passwords	for	testing),	and	only	from	IT-network.
 - [ ] Traffic	to	devices	should	be	encrypted
