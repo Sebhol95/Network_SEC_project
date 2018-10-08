@@ -1,4 +1,4 @@
-Closing connection from all execp VLAN2: 
+Closing connection from all execp VLAN2 / it department: 
 
 router1(config)#access-list 1 permit 172.16.16.2 255.255.255.0
 router1(config)#line vty 0 4
