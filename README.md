@@ -31,6 +31,6 @@ function.
 
 ## Documentation
 
-[TACACS](https://github.com/Sebhol95/Network_SEC_project/tree/master/Documentation/ACL) setup and configurations
+[TACACS](https://github.com/Sebhol95/Network_SEC_project/tree/master/Documentation/TACACS) setup and configurations
 
-[ACL](https://github.com/Sebhol95/Network_SEC_project/tree/master/Documentation/TACACS) setup and configurations
+[ACL](https://github.com/Sebhol95/Network_SEC_project/tree/master/Documentation/ACL) setup and configurations
