@@ -14,6 +14,6 @@ Admin1				06:25:15 UTC Mon Mar 01 1993
 
 Remove lockout: 
 
-clear aaa local user fail-attempts {username username | all}
+clear aaa local user lockout username
 
 
