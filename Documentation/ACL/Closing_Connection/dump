@@ -1,5 +1,10 @@
 Closing connection from all execp VLAN2 / it department: 
 
-router1(config)#access-list 1 permit 172.16.16.2 255.255.255.0
-router1(config)#line vty 0 4
-router1(config-line)#access-class 1 in
+OSL-FW(config)#access-list 1 permit 172.16.16.2 0.0.0.255
+OSL-FW(config)#line vty 0 4
+OSL-FW(config-line)#access-class 1 in
+OSL-FW(config-line)#login authentication My_REM_AUTH
+OSL-FW(config)#line vty 5 15
+OSL-FW(config-line)#access-class 1 in
+OSL-FW(config-line)#access-class 1 in
+OSL-FW(config-line)#login authentication My_REM_AUTH
