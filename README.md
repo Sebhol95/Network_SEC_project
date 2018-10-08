@@ -30,3 +30,7 @@ function.
 - [ ] Log	routers	to	a	central	log	server.
 
 ## Documentation
+
+[TACACS](https://github.com/Sebhol95/Network_SEC_project/tree/master/Documentation/ACL) setup and configurations
+
+[ACL](https://github.com/Sebhol95/Network_SEC_project/tree/master/Documentation/TACACS) setup and configurations
