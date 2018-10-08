@@ -6,5 +6,4 @@ OSL-FW(config-line)#access-class 1 in
 OSL-FW(config-line)#login authentication My_REM_AUTH
 OSL-FW(config)#line vty 5 15
 OSL-FW(config-line)#access-class 1 in
-OSL-FW(config-line)#access-class 1 in
 OSL-FW(config-line)#login authentication My_REM_AUTH
