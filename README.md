@@ -47,13 +47,4 @@ Pass: =2vyS`Vh+&~
 Username: Admin3
 Pass: )Y"p84/h`y5
 
-Username: Admin1
-Password: Z=4xBKk:&ET
-
-Username: Admin2
-Password: =2vyS`Vh+&~
-
-Username: Admin3
-Password: )Y"p84/h`y5
-
 Enable password: test
