@@ -20,6 +20,12 @@ transport input ssh
 !
 
 
+Extra Making SSH connection time-out afther 2 min with no action: 
+###########################################
+OSL-FW(config-line)#line vty 0 4
+OSL-FW(config-line)#exec-timeout 2
+
+
 Users on router: 
 ###########################################
 username Admin1 privilege 15 secret 5 $1$mERr$po3DTILCYylg4873KNKvO1
