@@ -16,10 +16,21 @@ Tacacs
 Key:
 cisco123
 
+###################################################
 
-Connection to SRV-SW01
+Connection to Internet: 
 
 Client name:
+Internet
+
+Client IP:
+85.100.200.97
+
+Server type: 
+Tacacs
+
+Key:
+cisco123
 
 
 
