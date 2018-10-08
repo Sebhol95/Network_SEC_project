@@ -1,1 +1,51 @@
-d
+TACACS configuration: 
+
+SRV-SW01 - config to tacacs server: 
+########################################################
+conf t
+!
+aaa new-model
+!
+tacacs-server host 192.168.255.3 key cisco123
+!
+aaa authentication login My_REM_AUTH group tacacs+
+!
+username administrator password administrator
+!
+
+
+Connection with computers in network:
+########################################################
+conf t
+!
+line vty 0 4
+!
+login authentication My_REM_AUTH
+!
+
+
+Check connection to TACACS srv: 
+########################################################
+ping 192.168.255.3
+
+
+Enable password on router (local): 
+########################################################
+enable secret *password*
+
+
+
+TACACS Server info: 
+########################################################
+
+Client name: 
+OSL-FW
+
+Client IP:
+172.17.17.1
+
+Server Type:
+Tacacs
+
+Key:
+cisco123
