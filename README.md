@@ -38,13 +38,13 @@ function.
 
 ## Information 
 
-Username: Admin1
+Username: Admin1 |||| 
 Pass: Z=4xBKk:&ET
 
-Username: Admin2
+Username: Admin2 ||||
 Pass: =2vyS`Vh+&~
 
-Username: Admin3
+Username: Admin3 ||||
 Pass: )Y"p84/h`y5
 
 Enable password: test
