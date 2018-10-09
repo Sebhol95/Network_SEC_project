@@ -12,8 +12,8 @@ clients	in	the	network.
 - [X] Ensure	that	only	members	of	the	IT	department	are	allowed	to	log	in	(add	
 three	users	and	supply	passwords	for	testing),	and	only	from	IT-network.
 - [X] Traffic	to	devices	should	be	encrypted. (Missing Bergen, ans SW.)
-- [ ] “Login	Password	Retry	Lockout”	should	only	allow	three	failed	logins,	before	
-a	retention	period	of	20	min,	with	feedback	to	the	user.
+- [X] “Login	Password	Retry	Lockout”	should	only	allow	three	failed	logins,	before	
+a	retention	period	of	20	min,	with	feedback	to	the	user. (only document)
 - [X] Legal	Banner	Notification,	stating	the	company	policy	should	be	in	place.	The	
 banner	should	state	that	unauthorised	login	is	prohibited,	logged	and	
 prosecuted.	You	can	express	the	banner	text	at	your	wish.
