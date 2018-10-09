@@ -11,7 +11,7 @@ clients	in	the	network.
 - [X] Implement	centralised	login	security	on	all	network	devices	.	(Missing Bergen, need VPN 1st.)
 - [X] Ensure	that	only	members	of	the	IT	department	are	allowed	to	log	in	(add	
 three	users	and	supply	passwords	for	testing),	and	only	from	IT-network.
-- [X] Traffic	to	devices	should	be	encrypted. (Missing Bergen, ans SW.)
+- [X] Traffic	to	devices	should	be	encrypted. (Missing Bergen)
 - [X] “Login	Password	Retry	Lockout”	should	only	allow	three	failed	logins,	before	
 a	retention	period	of	20	min,	with	feedback	to	the	user. (only document)
 - [X] Legal	Banner	Notification,	stating	the	company	policy	should	be	in	place.	The	
