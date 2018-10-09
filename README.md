@@ -18,8 +18,8 @@ a	retention	period	of	20	min,	with	feedback	to	the	user. (only document)
 banner	should	state	that	unauthorised	login	is	prohibited,	logged	and	
 prosecuted.	You	can	express	the	banner	text	at	your	wish.
 - [X] Ensure	that	no	one	can	use	the	WIFI	to	get	access	to	local	resources.	
-- [ ] Protect	Management	using	OOB	method	and	protecting	password	and	traffic	
-to	and	from	IT-department	with	SSH.
+- [X] Protect	Management	using	OOB	method	and	protecting	password	and	traffic	
+to	and	from	IT-department	with	SSH. (Missing bergen, need VPN 1st)
 - [ ] Protect	Console	and	Aux	ports.
 - [X] Implement NTP
 - [X] Implementing	a	routing	protocol	with	security	should	be	and	proof	of	(missing security) 
