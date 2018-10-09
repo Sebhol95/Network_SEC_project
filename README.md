@@ -8,7 +8,7 @@ clients	in	the	network.
 
 
 - [ ] Document the	network	settings
-- [X] Implement	centralised	login	security	on	all	network	devices	.	(Missing Bergen, and SW, need VPN 1st.)
+- [X] Implement	centralised	login	security	on	all	network	devices	.	(Missing Bergen, need VPN 1st.)
 - [X] Ensure	that	only	members	of	the	IT	department	are	allowed	to	log	in	(add	
 three	users	and	supply	passwords	for	testing),	and	only	from	IT-network.
 - [X] Traffic	to	devices	should	be	encrypted. (Missing Bergen, ans SW.)
