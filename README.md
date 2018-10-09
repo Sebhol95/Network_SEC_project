@@ -21,10 +21,12 @@ prosecuted.	You	can	express	the	banner	text	at	your	wish.
 - [ ] Protect	Management	using	OOB	method	and	protecting	password	and	traffic	
 to	and	from	IT-department	with	SSH.
 - [ ] Protect	Console	and	Aux	ports.
+- [X] Implement NTP
 - [ ] Implementing	a	routing	protocol	with	security	should	be	and	proof	of	
 function.
 - [ ] Backup	of	all	device’s	configuration	on	one	server	in	IT-LAN.
 - [ ] Site	to	site	VPN	between	OSL-Firewall	and	Bergen
+- [ ] Protection	against	DHCP	spoofing	
 - [ ] Secure	password	in	the	Cisco	configuration	file	
 - [ ] Secure	the	boot	proces	from	tampering.
 - [ ] Log	routers	to	a	central	log	server.
