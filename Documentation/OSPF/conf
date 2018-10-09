@@ -1,0 +1,62 @@
+OSPF config 
+
+L3SW02: 
+---------------------------------------
+router ospf 100
+log-adjacency-changes
+network 172.17.17.0 0.0.0.3 area 10
+network 192.168.255.0 0.0.0.255 area 10
+network 192.168.52.0 0.0.3.255 area 10
+network 172.31.252.0 0.0.3.255 area 10
+network 172.16.16.0 0.0.0.255 area 10
+!
+ip default-gateway 172.17.17.1
+ip classless
+ip route 0.0.0.0 0.0.0.0 172.16.1.1 
+ip route 0.0.0.0 0.0.0.0 172.17.17.1 
+!
+ip flow-export version 9
+!
+
+
+OSL-FW:
+---------------------------------------
+router ospf 100
+log-adjacency-changes
+network 172.17.17.0 0.0.0.3 area 10
+network 85.100.200.96 0.0.0.3 area 10
+!
+ip default-gateway 85.100.200.97
+ip classless
+ip route 0.0.0.0 0.0.0.0 GigabitEthernet0/0 
+!
+ip flow-export version 9
+
+
+Internett: 
+---------------------------------------
+router ospf 100
+log-adjacency-changes
+network 85.100.200.96 0.0.0.3 area 10
+network 8.8.8.0 0.0.0.15 area 10
+network 195.60.32.36 0.0.0.3 area 10
+!
+ip classless
+!
+ip flow-export version 9
+
+
+BRG-FW: 
+---------------------------------------
+router ospf 100
+log-adjacency-changes
+network 195.60.32.36 0.0.0.3 area 10
+!
+router rip
+!
+ip default-gateway 195.60.32.36
+ip classless
+!
+ip flow-export version 9
+
+
