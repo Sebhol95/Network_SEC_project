@@ -22,7 +22,7 @@ prosecuted.	You	can	express	the	banner	text	at	your	wish.
 to	and	from	IT-department	with	SSH.
 - [ ] Protect	Console	and	Aux	ports.
 - [X] Implement NTP
-- [ ] Implementing	a	routing	protocol	with	security	should	be	and	proof	of	
+- [X] Implementing	a	routing	protocol	with	security	should	be	and	proof	of	(missing security) 
 function.
 - [ ] Backup	of	all	device’s	configuration	on	one	server	in	IT-LAN.
 - [ ] Site	to	site	VPN	between	OSL-Firewall	and	Bergen
