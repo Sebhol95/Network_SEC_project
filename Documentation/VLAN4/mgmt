@@ -1,0 +1,47 @@
+Config for VLAN4 management. 
+
+
+OSL-FW:
+---------------------------------------
+interface Vlan4
+mac-address 000a.4131.e202
+ip address 10.0.0.1 255.255.255.0
+
+L3SW01:
+----------------------------------------
+interface Vlan4
+mac-address 0001.64e8.9a01
+ip address 10.0.0.3 255.255.255.0
+!
+ip default-gateway 10.0.0.1
+ip classless
+ip route 0.0.0.0 0.0.0.0 10.0.0.1 
+!
+ip flow-export version 9
+
+
+L3SW02:
+-------------------------------------
+interface Vlan4
+mac-address 00e0.b0ea.c303
+ip address 10.0.0.2 255.255.255.0
+ 
+
+IT-SW01:
+-----------------------------------
+interface Vlan4
+mac-address 00e0.8fec.e301
+ip address 10.0.0.4 255.255.255.0
+
+
+USR-SW01:
+----------------------------------
+interface Vlan4
+mac-address 0000.0ce0.bc01
+ip address 10.0.0.5 255.255.255.0
+
+
+SRV-SW01: 
+interface Vlan4
+mac-address 000b.be72.5401
+ip address 10.0.0.6 255.255.255.0
