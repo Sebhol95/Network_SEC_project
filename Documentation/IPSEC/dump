@@ -1,0 +1,25 @@
+
+access-list 100 permit ip 172.16.16.0 0.0.0.255 172.16.17.0 0.0.2.255
+access-list 100 permit ip 172.16.17.0 0.0.2.255 172.16.16.0 0.0.0.255
+
+
+crypto isakmp key secretkey address 85.100.200.98
+crypto isakmp key secretkey address 195.60.32.38
+
+crypto ipsec transform-set OSL-BRG esp-aes 256 esp-sha-hmac
+crypto ipsec transform-set BRG-OSL esp-aes 256 esp-sha-hmac
+
+
+crypto map IPSEC-MAP 10 ipsec-isakmp 
+ set peer 195.60.32.38
+ set pfs group5
+ set security-association lifetime seconds 86400
+ set transform-set OSL-BRG
+ match address 100
+
+crypto map IPSEC-MAP 10 ipsec-isakmp 
+ set peer 85.100.200.98
+ set pfs group5
+ set security-association lifetime seconds 86400
+ set transform-set BRG-OSL 
+ match address 100
