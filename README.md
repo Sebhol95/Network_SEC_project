@@ -25,7 +25,7 @@ to	and	from	IT-department	with	SSH. (Missing bergen, need VPN 1st)
 - [X] Implementing	a	routing	protocol	with	security	should	be	and	proof	of	(missing security) 
 function.
 - [ ] Backup	of	all	device’s	configuration	on	one	server	in	IT-LAN.
-- [ ] Site	to	site	VPN	between	OSL-Firewall	and	Bergen
+- [X] Site	to	site	VPN	between	OSL-Firewall	and	Bergen
 - [ ] Protection	against	DHCP	spoofing	
 - [ ] Secure	password	in	the	Cisco	configuration	file	
 - [ ] Secure	the	boot	proces	from	tampering.
