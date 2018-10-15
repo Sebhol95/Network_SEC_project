@@ -7,7 +7,7 @@ IP	8.8.8.8	is	configured	to	a	device	"on	the	internet"	to	confirm	communication	
 clients	in	the	network.
 
 
-- [ ] Document the	network	settings
+- [X] Document the	network	settings
 - [X] Implement	centralised	login	security	on	all	network	devices	.	(Missing Bergen, need VPN 1st.)
 - [X] Ensure	that	only	members	of	the	IT	department	are	allowed	to	log	in	(add	
 three	users	and	supply	passwords	for	testing),	and	only	from	IT-network.
@@ -24,12 +24,12 @@ to	and	from	IT-department	with	SSH. (Missing bergen, need VPN 1st)
 - [X] Implement NTP
 - [X] Implementing	a	routing	protocol	with	security	should	be	and	proof	of	(missing security) 
 function.
-- [ ] Backup	of	all	device’s	configuration	on	one	server	in	IT-LAN.
+- [X] Backup	of	all	device’s	configuration	on	one	server	in	IT-LAN.
 - [X] Site	to	site	VPN	between	OSL-Firewall	and	Bergen
-- [ ] Protection	against	DHCP	spoofing	
-- [ ] Secure	password	in	the	Cisco	configuration	file	
-- [ ] Secure	the	boot	proces	from	tampering.
-- [ ] Log	routers	to	a	central	log	server.
+- [X] Protection	against	DHCP	spoofing	
+- [X] Secure	password	in	the	Cisco	configuration	file	
+- [X] Secure	the	boot	proces	from	tampering.
+- [X] Log	routers	to	a	central	log	server.
 
 ## Documentation
 
@@ -40,13 +40,16 @@ function.
 
 ## Information 
 
-| Username: Admin1  |
-| Pass: Z=4xBKk:&ET |
+Username: Admin1
 
-| Username: Admin2  |
-| Pass: =2vyS`Vh+&~ |
+Pass: Z=4xBKk:&ET
 
-| Username: Admin3  |
-| Pass: )Y"p84/h`y5 |
+Username: Admin2
 
-| Enable password: test |
+Pass: =2vyS`Vh+&~
+
+Username: Admin3
+
+Pass: )Y"p84/h`y5
+
+Enable password: cisco
