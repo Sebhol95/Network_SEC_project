@@ -8,18 +8,18 @@ clients	in	the	network.
 
 
 - [X] Document the	network	settings
-- [X] Implement	centralised	login	security	on	all	network	devices	.	(Missing Bergen, need VPN 1st.)
+- [X] Implement	centralised	login	security	on	all	network	devices	.
 - [X] Ensure	that	only	members	of	the	IT	department	are	allowed	to	log	in	(add	
 three	users	and	supply	passwords	for	testing),	and	only	from	IT-network.
-- [X] Traffic	to	devices	should	be	encrypted. (Missing Bergen)
+- [X] Traffic	to	devices	should	be	encrypted.
 - [X] “Login	Password	Retry	Lockout”	should	only	allow	three	failed	logins,	before	
-a	retention	period	of	20	min,	with	feedback	to	the	user. (only document)
+a	retention	period	of	20	min,	with	feedback	to	the	user.
 - [X] Legal	Banner	Notification,	stating	the	company	policy	should	be	in	place.	The	
 banner	should	state	that	unauthorised	login	is	prohibited,	logged	and	
 prosecuted.	You	can	express	the	banner	text	at	your	wish.
 - [X] Ensure	that	no	one	can	use	the	WIFI	to	get	access	to	local	resources.	
 - [X] Protect	Management	using	OOB	method	and	protecting	password	and	traffic	
-to	and	from	IT-department	with	SSH. (Missing bergen, need VPN 1st)
+to	and	from	IT-department	with	SSH. 
 - [X] Protect	Console	and	Aux	ports.
 - [X] Implement NTP
 - [X] Implementing	a	routing	protocol	with	security	should	be	and	proof	of	(missing security) 
