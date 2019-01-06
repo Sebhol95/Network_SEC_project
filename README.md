@@ -34,12 +34,19 @@ function.
 ## Documentation
 
 [TACACS](https://github.com/Sebhol95/Network_SEC_project/tree/master/Documentation/TACACS) setup and configurations
+
 [ACL](https://github.com/Sebhol95/Network_SEC_project/tree/master/Documentation/ACL) setup and configurations
+
 [VLAN -MGMT](https://github.com/Sebhol95/Network_SEC_project/tree/master/Documentation/VLAN4) setup and configurations
+
 [OSPF](https://github.com/Sebhol95/Network_SEC_project/tree/master/Documentation/OSPF) setup and configurations
+
 [NTP](https://github.com/Sebhol95/Network_SEC_project/tree/master/Documentation/NTP) setup and configurations
+
 [MOTD](https://github.com/Sebhol95/Network_SEC_project/tree/master/Documentation/MOTD) setup and configurations
+
 [AAA-Lockout](https://github.com/Sebhol95/Network_SEC_project/tree/master/Documentation/Lockout) setup and configurations
+
 [IP-SEC Tunnel](https://github.com/Sebhol95/Network_SEC_project/tree/master/Documentation/Lockout) setup and configurations
 
 ## Information 
